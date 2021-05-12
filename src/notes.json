@@ -1,0 +1,98 @@
+[
+    {
+        "noteName": "c1",
+        "keyboardKey": "a"
+    },
+    {
+        "noteName": "c#1",
+        "keyboardKey": "w"
+    },
+    {
+        "noteName": "d1",
+        "keyboardKey": "s"
+    },
+    {
+        "noteName": "d#1",
+        "keyboardKey": "e"
+    },
+    {
+        "noteName": "e1",
+        "keyboardKey": "d"
+    },
+    {
+        "noteName": "f1",
+        "keyboardKey": "f"
+    },
+    {
+        "noteName": "f#1",
+        "keyboardKey": "t"
+    },
+    {
+        "noteName": "g1",
+        "keyboardKey": "g"
+    },
+    {
+        "noteName": "g#1",
+        "keyboardKey": "y"
+    },
+    {
+        "noteName": "a1",
+        "keyboardKey": "h"
+    },
+    {
+        "noteName": "a#1",
+        "keyboardKey": "u"
+    },
+    {
+        "noteName": "b1",
+        "keyboardKey": "j"
+    },
+    {
+        "noteName": "c2",
+        "keyboardKey": "1 a"
+    },
+    {
+        "noteName": "c#2",
+        "keyboardKey": "1 w"
+    },
+    {
+        "noteName": "d2",
+        "keyboardKey": "1 s"
+    },
+    {
+        "noteName": "d#2",
+        "keyboardKey": "1 e"
+    },
+    {
+        "noteName": "e2",
+        "keyboardKey": "1 d"
+    },
+    {
+        "noteName": "f2",
+        "keyboardKey": "1 f"
+    },
+    {
+        "noteName": "f#2",
+        "keyboardKey": "1 t"
+    },
+    {
+        "noteName": "g2",
+        "keyboardKey": "1 g"
+    },
+    {
+        "noteName": "g#2",
+        "keyboardKey": "1 y"
+    },
+    {
+        "noteName": "a2",
+        "keyboardKey": "1 h"
+    },
+    {
+        "noteName": "a#2",
+        "keyboardKey": "1 u"
+    },
+    {
+        "noteName": "b2",
+        "keyboardKey": "1 j"
+    }
+]

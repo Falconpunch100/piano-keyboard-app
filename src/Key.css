@@ -1,0 +1,32 @@
+.keyContainer {
+    position: relative;
+}
+
+.normal {
+    background-color: white;
+    height: 120px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.sharp {
+    padding: 0;
+    color: darkgray;
+    background-color: black;
+    height: 80px;
+    width: 25px;
+    font-size: x-small;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    bottom: 50px;
+    margin-top: -60px;
+    margin-left: -15px;
+}
+
+#pressed {
+    background-color: red;
+}
