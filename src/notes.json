@@ -94,5 +94,149 @@
     {
         "noteName": "b2",
         "keyboardKey": "1 j"
+    },
+    {
+        "noteName": "c3",
+        "keyboardKey": "2 a"
+    },
+    {
+        "noteName": "c#3",
+        "keyboardKey": "2 w"
+    },
+    {
+        "noteName": "d3",
+        "keyboardKey": "2 s"
+    },
+    {
+        "noteName": "d#3",
+        "keyboardKey": "2 e"
+    },
+    {
+        "noteName": "e3",
+        "keyboardKey": "2 d"
+    },
+    {
+        "noteName": "f3",
+        "keyboardKey": "2 f"
+    },
+    {
+        "noteName": "f#3",
+        "keyboardKey": "2 t"
+    },
+    {
+        "noteName": "g3",
+        "keyboardKey": "2 g"
+    },
+    {
+        "noteName": "g#3",
+        "keyboardKey": "2 y"
+    },
+    {
+        "noteName": "a3",
+        "keyboardKey": "2 h"
+    },
+    {
+        "noteName": "a#3",
+        "keyboardKey": "2 u"
+    },
+    {
+        "noteName": "b3",
+        "keyboardKey": "2 j"
+    },
+    {
+        "noteName": "c4",
+        "keyboardKey": "3 a"
+    },
+    {
+        "noteName": "c#4",
+        "keyboardKey": "3 w"
+    },
+    {
+        "noteName": "d4",
+        "keyboardKey": "3 s"
+    },
+    {
+        "noteName": "d#4",
+        "keyboardKey": "3 e"
+    },
+    {
+        "noteName": "e4",
+        "keyboardKey": "3 d"
+    },
+    {
+        "noteName": "f4",
+        "keyboardKey": "3 f"
+    },
+    {
+        "noteName": "f#4",
+        "keyboardKey": "3 t"
+    },
+    {
+        "noteName": "g4",
+        "keyboardKey": "3 g"
+    },
+    {
+        "noteName": "g#4",
+        "keyboardKey": "3 y"
+    },
+    {
+        "noteName": "a4",
+        "keyboardKey": "3 h"
+    },
+    {
+        "noteName": "a#4",
+        "keyboardKey": "3 u"
+    },
+    {
+        "noteName": "b4",
+        "keyboardKey": "3 j"
+    },
+    {
+        "noteName": "c5",
+        "keyboardKey": "4 a"
+    },
+    {
+        "noteName": "c#5",
+        "keyboardKey": "4 w"
+    },
+    {
+        "noteName": "d5",
+        "keyboardKey": "4 s"
+    },
+    {
+        "noteName": "d#5",
+        "keyboardKey": "4 e"
+    },
+    {
+        "noteName": "e5",
+        "keyboardKey": "4 d"
+    },
+    {
+        "noteName": "f5",
+        "keyboardKey": "4 f"
+    },
+    {
+        "noteName": "f#5",
+        "keyboardKey": "4 t"
+    },
+    {
+        "noteName": "g5",
+        "keyboardKey": "4 g"
+    },
+    {
+        "noteName": "g#5",
+        "keyboardKey": "4 y"
+    },
+    {
+        "noteName": "a5",
+        "keyboardKey": "4 h"
+    },
+    {
+        "noteName": "a#5",
+        "keyboardKey": "4 u"
+    },
+    {
+        "noteName": "b5",
+        "keyboardKey": "4 j"
     }
 ]

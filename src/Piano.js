@@ -24,20 +24,46 @@ function Piano() {
         }
     }, [chosenInst])
     function onKeyPress(e) {
-        console.log(e.key)
-        const copy = [...pressedKeys]
-        copy.push(e.key)
-        console.log(pressedKeys)
-        setPressedKeys(copy)
+        if (e.repeat) {
+            return
+        }
+        setPressedKeys(oldState => {
+            const copy = [...oldState]
+            copy.push(e.key)
+            return copy
+        })
+    }
+
+    function onKeyRelease(e) {
+        setPressedKeys(oldState => {
+            const copy = [...oldState]
+            let deleteIndex = copy.findIndex((currKey) => {
+                if (currKey === e.key) {
+                    return true
+                }
+                else {
+                    return false
+                }
+            })
+            if (deleteIndex !== -1) {
+                copy.splice(deleteIndex, 1)
+            }
+            return copy
+        })
     }
 
     useEffect(() => {
         window.addEventListener("keydown", onKeyPress)
+        window.addEventListener("keyup", onKeyRelease)
+        return () => {
+            window.removeEventListener("keydown", onKeyPress)
+            window.removeEventListener("keyup", onKeyRelease)
+        }
     }, [])
     return (
         <>
-        <h1>Welcome to the Keyboard App!</h1>
-        <h3>On this app, you can create your own music with just the click of a mouse! All you have to do is select the instrument of your desire and get to playing!</h3>
+            <h1>Welcome to the Keyboard App!</h1>
+            <h3>On this app, you can create your own music with just the click of a mouse! All you have to do is select the instrument of your desire and get to playing!</h3>
             <form>
                 <select onChange={(e) => {
                     setChosenInst(e.target.value)
