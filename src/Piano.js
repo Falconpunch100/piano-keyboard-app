@@ -85,7 +85,6 @@ function Piano() {
                     )
                 })}
             </section>
-            <p>Scale/sheet music will probably go here.</p>
         </>
     )
 }
